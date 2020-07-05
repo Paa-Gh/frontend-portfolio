@@ -38,7 +38,6 @@ function loadList(array){
 clear.addEventListener("click", function(){
 	localStorage.clear();
 	localStorage.reload();
-	window.location.reload();
 });
 
 // Show today's date
